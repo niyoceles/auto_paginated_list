@@ -1,0 +1,75 @@
+.main {
+  @apply flex flex-col justify-between items-center px-3 sm:px-5 md:px-10 lg:px-16 pt-16 pb-10 min-h-[100vh];
+}
+
+.heading {
+  @apply shadow-inner shadow-primary fixed top-0 left-0 w-full flex justify-center items-center py-8 bg-white px-3 sm:px-5 md:px-10 lg:px-16;
+}
+
+.heading > div {
+  @apply flex items-center justify-between w-full;
+}
+
+.heading h2 {
+  @apply text-[1.2rem] font-bold;
+}
+
+.account {
+  @apply cursor-pointer;
+}
+
+.mainWrapper {
+  @apply w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 my-10;
+}
+
+.card {
+  @apply p-2 lg:py-5 bg-[#F4F5F7] rounded-2xl cursor-pointer;
+}
+
+.minCardWrapper {
+  @apply grid grid-cols-4 gap-2 my-2;
+}
+
+.minCard {
+  @apply rounded-md mx-1 max-h-20;
+}
+
+.imageHolder {
+  @apply rounded-2xl min-h-[12rem];
+}
+
+.imageHolder > img {
+  @apply rounded-2xl;
+}
+
+.descriptions {
+  @apply flex justify-between py-3;
+}
+
+.rating {
+  @apply flex items-center h-3;
+}
+
+.rating * {
+  @apply text-sm text-secondary font-medium;
+}
+
+.descriptionText {
+  @apply text-primary text-sm my-2;
+}
+
+.name {
+  @apply text-secondary text-sm font-bold;
+}
+
+.price {
+  @apply text-secondary text-sm font-thin;
+}
+
+.price span {
+  @apply font-semibold;
+}
+
+.footer {
+  @apply w-[100vw] fixed bottom-0 right-0 flex justify-center bg-white h-[3rem] items-center;
+}
